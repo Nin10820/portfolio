@@ -1,0 +1,41 @@
+
+#app {
+  font-family: 'Nunito', sans-serif;
+  font-size: em(18px);
+  background-color: #F7FBFF;
+}
+
+ion-icon {
+  font-size: 1.5em;
+}
+
+.nav {
+  padding: 24px;
+  display: flex;
+  font-weight: 600;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    padding: 0.5em 1em;
+    font-size: em(18px);
+    text-decoration: none;
+    color: $text-color;
+    list-style: none;
+    transition: ease-in .1s;
+
+    &:hover, &.router-link-exact-active {
+      text-decoration: none;
+      color: $primary;
+    }
+
+    &.router-link-exact-active {
+      font-weight: bold;
+    }
+  }
+
+  div {
+    display: flex;
+  }
+}
+

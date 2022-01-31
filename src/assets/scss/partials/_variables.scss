@@ -1,0 +1,31 @@
+$text-color: #888888;
+$black: #000;
+
+$primary: #389adf;
+$primary-100: #07436d;
+$primary-80: #389adf;
+$primary-40: #cfebff;
+$primary-10: #f7fbff;
+
+@function em($pixels, $context: 16px) {
+  @return ($pixels/$context) *1em;
+}
+
+.button {
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+
+  span {
+    padding: 0 0.2em;
+  }
+}
+
+.button-tertiary {
+  @extend .button;
+  position: relative;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  color: $primary;
+}
