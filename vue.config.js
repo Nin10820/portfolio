@@ -17,7 +17,7 @@ module.exports = {
         additionalData: `
           @import "~@/assets/scss/partials/variables.scss"; 
           @import "~@/assets/scss/partials/icons.scss";
-          `
+          `,
       },
       // pass Less.js Options to less-loader
       less: {
@@ -29,4 +29,5 @@ module.exports = {
       },
     },
   },
+
 };
