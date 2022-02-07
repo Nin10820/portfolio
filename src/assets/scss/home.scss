@@ -138,10 +138,10 @@
   .title {
     font-weight: bold;
     font-size: em(48px);
-    
+    margin-bottom: 0.5em;
   }
   .content {
-    padding: .5em 0;
+    padding: 0.5em 0;
     width: 70%;
     margin-bottom: 1em;
     color: $text-color;
@@ -154,7 +154,7 @@
       font-weight: bold;
       color: $primary;
     }
-    
+
     div {
       position: relative;
       width: 30%;
@@ -182,7 +182,7 @@
       height: 220px;
       color: $primary;
       background-color: $primary-10;
-      padding: 1em .5em;
+      padding: 1em 0.5em;
       border-radius: 16px;
       border: none;
 
@@ -199,27 +199,49 @@
   }
 }
 
-.education-skill{
-  padding: 3em ;
+.education-skill {
+  padding: 2em;
   background-color: #fff;
+  .title {
+    font-weight: bold;
+    font-size: em(20px);
+  }
   h3 {
     font-weight: bold;
     align-items: center;
     font-size: em(28px);
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
+    svg {
+      margin-right: .5em ;
+    }
   }
   .item {
     display: grid;
     grid-template-columns: 1fr auto;
     margin: 1em 0;
     align-items: center;
-
-    .name-school {
-      font-weight: bold;
-      font-size: em(20px);
-    }
-    .info , .during{
+    .info,
+    .during {
       color: $text-color;
+    }
+  }
+
+  .skills {
+    .skill-item {
+      display: grid;
+      grid-template-columns: max-content auto max-content;
+      grid-gap: 1em;
+      align-items: center;
+      margin-bottom: 2em;
+
+      .title {
+        margin-bottom: 0;
+      }
+      &_icon {
+        padding: 0.6em;
+        background: #fff7dd;
+        border-radius: 5px;
+      }
     }
   }
 }
