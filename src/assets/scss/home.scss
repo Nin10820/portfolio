@@ -212,7 +212,7 @@
     font-size: em(28px);
     margin-bottom: 1.5em;
     svg {
-      margin-right: .5em ;
+      margin-right: 0.5em;
     }
   }
   .item {
@@ -240,8 +240,62 @@
       &_icon {
         padding: 0.6em;
         background: #fff7dd;
-        border-radius: 5px;
+        border-radius: 0.5em;
       }
     }
+  }
+}
+
+.projects {
+  position: relative;
+  height: max-content;
+  border-radius: 5px;
+  padding: 2em;
+  margin-bottom: 1em;
+  background-color: #fff;
+  h3 {
+    font-weight: bold;
+    font-size: em(28px);
+  }
+  div {
+    &:nth-child(1) {
+      .project {
+        background-color: #f2fcfd;
+      }
+    }
+    &:nth-child(2) {
+      .project {
+        background-color: #f7f5ff;
+      }
+    }
+  }
+  .project {
+    position: relative;
+    height: 100%;
+    padding: 2em 3em;
+    border-radius: 5px;
+
+    &__subname {
+      color: $text-color;
+      font-weight: 600;
+    }
+    &__name {
+      display: block;
+      position: relative;
+      width: 40%;
+      text-decoration: none;
+      color: $black;
+      font-weight: 700;
+      font-size: em(24px);
+      margin-bottom: 1em;
+    }
+  }
+}
+
+footer {
+  position: relative;
+  .row {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }

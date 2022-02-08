@@ -290,7 +290,7 @@
                 <div class="percentage">60%</div>
               </div>
               <div class="skill-item">
-                <div class="skill-item_icon" style="background: #F7FBFF;">
+                <div class="skill-item_icon" style="background: #f7fbff">
                   <svg
                     width="36"
                     height="36"
@@ -306,11 +306,11 @@
                     />
                   </svg>
                 </div>
-                <p class="title">Javascript (VueJs)</p>
+                <p class="title">Photoshop</p>
                 <div class="percentage">60%</div>
               </div>
               <div class="skill-item">
-                <div class="skill-item_icon" style="background: #F1F1F1;">
+                <div class="skill-item_icon" style="background: #f1f1f1">
                   <svg
                     width="36"
                     height="36"
@@ -344,11 +344,11 @@
                     />
                   </svg>
                 </div>
-                <p class="title">Javascript (VueJs)</p>
+                <p class="title">Figma</p>
                 <div class="percentage">60%</div>
               </div>
               <div class="skill-item">
-                <div class="skill-item_icon" style="background: #FFE6E2;">
+                <div class="skill-item_icon" style="background: #ffe6e2">
                   <svg
                     width="32"
                     height="32"
@@ -676,7 +676,7 @@
                     </defs>
                   </svg>
                 </div>
-                <p class="title">Javascript (VueJs)</p>
+                <p class="title">Ruby</p>
                 <div class="percentage">60%</div>
               </div>
             </div>
@@ -684,6 +684,59 @@
         </div>
       </div>
     </div>
+
+    <div class="projects">
+      <div class="container">
+        <!-- <h3>Project</h3>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+          reprehenderit vitae doloremque ab illum reiciendis temporibus velit
+          magnam officia obcaecati ea neque minima tenetur nulla eum soluta
+          debitis corporis officiis!
+        </div> -->
+        <div class="row">
+          <div class="col-md-6">
+            <div class="project">
+              <div class="project__subname">Product Design</div>
+              <a class="project__name">Method to management your finance</a>
+              <div class="project__image">
+                <img
+                  src="../assets/images/project_1.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="project">
+              <div class="project__subname">Product Design</div>
+              <a class="project__name">Method to management your finance</a>
+              <div class="project__image">
+                <img
+                  src="../assets/images/project_2.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <button>Read more</button> -->
+      </div>
+    </div>
+
+    <footer class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>What do I help</h2>
+        </div>
+        <div class="col-md-6">
+          <h3>You know about me, let's contact with me</h3>
+          <button>Get my resume</button>
+      </div>
+      </div>
+    </footer>
   </div>
 </template>
 

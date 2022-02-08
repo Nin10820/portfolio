@@ -9,7 +9,7 @@ $primary-40: #cfebff;
 $primary-10: #f7fbff;
 
 @function em($pixels, $context: 16px) {
-  @return ($pixels/$context) *1em;
+  @return ($pixels / $context) * 1em;
 }
 
 .button {
